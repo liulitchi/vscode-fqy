@@ -1,7 +1,7 @@
 {
     "name": "fqy",
     "displayName": "费沁源鼓励师",
-    "description": "正○半○椭○，还有费沁○",
+    "description": "正圆半圆椭圆，还有费沁○",
     "version": "0.1.2",
     "publisher": "li",
     "icon": "logo.jpeg",
@@ -44,7 +44,7 @@
             "properties": {
                 "fqy.reminderViewIntervalInMinutes": {
                     "type": "number",
-                    "default": 60,
+                    "default": 64,
                     "description": "展示提醒页面的时间间隔（分钟）"
                 },
                 "fqy.title": {
