@@ -33,7 +33,7 @@
     "contributes": {
         "commands": [
             {
-                "command": "ycy.showReminderView",
+                "command": "fqy.showReminderView",
                 "title": "打开提醒页面",
                 "category": "fqy"
             }
@@ -42,22 +42,22 @@
             "type": "object",
             "title": "费沁源",
             "properties": {
-                "ycy.reminderViewIntervalInMinutes": {
+                "fqy.reminderViewIntervalInMinutes": {
                     "type": "number",
                     "default": 60,
                     "description": "展示提醒页面的时间间隔（分钟）"
                 },
-                "ycy.title": {
+                "fqy.title": {
                     "type": "string",
                     "default": "正○半○椭○，还有费沁○",
                     "description": "页面内展示文字"
                 },
-                "ycy.type": {
+                "fqy.type": {
                     "type": "string",
                     "default": "default",
                     "description": "类型：default:默认图；url：网络图"
                 },
-                "ycy.customImages": {
+                "fqy.customImages": {
                     "type": "array",
                     "default": [
                         "http://b-ssl.duitang.com/uploads/item/201806/04/20180604090459_gqqjo.jpg"
