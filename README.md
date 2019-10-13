@@ -1,4 +1,6 @@
-# 超越鼓励师
+# forked from [杨超越鼓励师](https://github.com/formulahendry/vscode-ycy)
+
+# 鼓励师
 
 在 VS Code 中连续写代码一小时（时间可配置），会有杨超越提醒你该休息啦~
 
