@@ -1,7 +1,7 @@
 {
     "name": "ycy",
-    "displayName": "超越鼓励师",
-    "description": "写代码不再孤单，有杨超越与你同在",
+    "displayName": "费沁源鼓励师",
+    "description": "正○半○椭○，还有费沁○",
     "version": "0.1.2",
     "publisher": "formulahendry",
     "icon": "logo.jpg",
@@ -12,21 +12,21 @@
         "Other"
     ],
     "keywords": [
-        "杨超越",
-        "提醒",
+        "费沁源",
+        "番茄鱼",
         "鼓励"
     ],
     "bugs": {
-        "url": "https://github.com/formulahendry/vscode-ycy/issues",
-        "email": "formulahendry@gmail.com"
+        "url": "https://github.com/liulitchi/vscode-fqy/issues",
+        "email": "kz-xy@163.com"
     },
-    "homepage": "https://github.com/formulahendry/vscode-ycy/blob/master/README.md",
+    "homepage": "https://github.com/liulitchi/vscode-fqy/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/formulahendry/vscode-ycy.git"
+        "url": "https://github.com/liulitchi/vscode-fqy.git"
     },
     "activationEvents": [
-        "onCommand:ycy.showReminderView",
+        "onCommand:fqy.showReminderView",
         "*"
     ],
     "main": "./out/extension",
@@ -35,12 +35,12 @@
             {
                 "command": "ycy.showReminderView",
                 "title": "打开提醒页面",
-                "category": "ycy"
+                "category": "fqy"
             }
         ],
         "configuration": {
             "type": "object",
-            "title": "杨超越",
+            "title": "费沁源",
             "properties": {
                 "ycy.reminderViewIntervalInMinutes": {
                     "type": "number",
@@ -49,7 +49,7 @@
                 },
                 "ycy.title": {
                     "type": "string",
-                    "default": "小哥哥，小哥哥，代码写久了，该休息啦~",
+                    "default": "正○半○椭○，还有费沁○",
                     "description": "页面内展示文字"
                 },
                 "ycy.type": {
